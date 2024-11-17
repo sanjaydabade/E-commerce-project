@@ -1,0 +1,576 @@
+
+.showPage-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100rem;
+  justify-content: space-between;
+ 
+  
+}
+.orange-navbar{
+  position: relative;
+  /* width: 1366px; */
+  height: 38px;
+  left: 0px;
+  top: 130px;
+  background: #FE9832;   
+}
+.orange-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 21px;
+  
+  position: absolute;
+  width: 120px;
+  height: 20px;
+  left: 134px;
+  /* top: 174px; */
+}
+.orange-name p{
+
+  width: 42px;
+  height: 20px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 260%;
+  /* identical to box height, or 20px */
+  
+  color: #FFFFFF;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.vl{
+  width: 15px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+ margin-top: 18px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;   
+}
+
+.orange-name-shop{
+  width: 36px;
+  height: 20px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;   
+}
+.orange-name-shop p{
+  width: 700px;
+  height: 20px;
+ 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 270%;
+  /* identical to box height, or 20px */
+  margin-left: 230px;
+  color: #FFFFFF;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+
+.tyre-brands h2{
+  position: absolute;
+  width: 107px;
+  height: 22px;
+  left: 130px;
+  top: 344px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+ 
+}
+
+.tyre-brand-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 13px;
+  cursor: pointer;
+  position: absolute;
+  width: 94px;
+  height: 267px;
+  left: 130px;
+  top: 379px;
+}
+
+
+/* Styling for the active tab */
+.tyre-brand-name .active {
+  
+
+  color: #FE9832;
+ 
+}
+
+.hr-line{
+  position: absolute;
+  width: 210px;
+  height: 0px;
+  left: 130px;
+  top: 630px;
+  
+  border: 1px solid #BBBBBB;
+}
+
+.price-filter h3{
+  position: absolute;
+  width: 122px;
+  height: 22px;
+  left: 130px;
+  top: 670px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+}
+
+
+
+
+
+
+
+
+.price-filter {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.price-filter h3 {
+  position: absolute;
+  width: 122px;
+  height: 22px;
+  left: 130px;
+  top: 670px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+}
+
+.slider-container {
+  position: absolute;
+  width: 212px;
+  height: 17px;
+  left: 130px;
+  top: 722px;
+}
+
+.svg-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 17px;
+  transform: translateY(-50%);
+}
+
+.range-slider {
+  position: absolute;
+  width: 100%;
+  height: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent; /* Remove default background */
+  cursor: pointer;
+  z-index: 1;
+}
+
+.range-slider::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.range-slider::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.range-slider:focus {
+  outline: none;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FE9832;
+  cursor: pointer;
+  /* margin-top: -6px;  */
+  z-index: 2;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #FE9832; /* Orange color */
+  cursor: pointer;
+  z-index: 2;
+}
+
+.range-slider::-moz-range-progress {
+  background: #FE9832; /* Orange color */
+}
+
+.price-range-label {
+  position: absolute;
+  width: 180px;
+  height: 20px;
+  left: 130px;
+  top: 757px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+}
+
+.show-container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 27px;
+flex-grow: 1;
+
+width: 933px;
+margin-bottom: 40px;
+margin-left: 450px;
+margin-top: 250px;
+
+}
+
+.default-sorting select {
+box-sizing: border-box;
+
+position: absolute;
+width: 246px;
+height: 42px;
+left: 1143px;
+top: 235px;
+
+background: #F7F7F7;
+border: 1px solid #C7C7C7;
+border-radius: 7px;
+}
+
+.default-sorting option{
+
+position: absolute;
+width: 114px;
+height: 22px;
+left: 1064px;
+top: 276px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15.4835px;
+line-height: 140%;
+/* identical to box height, or 22px */
+
+color: #1D1E24;
+}
+
+
+/* Responsive Styles for Tablet (768px to 1024px) */
+@media (max-width: 1024px) {
+   
+  .orange-navbar{
+    
+    width: 1405px;
+    top:160px;
+  
+  }
+  .default-sorting select{
+    top:225px;
+    left:1120px
+  }
+
+  .show-container{
+    margin-left: 435px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+ /* Responsive Styles for Mobile (up to 767px) */
+ @media (max-width: 767px) {
+
+  .showPage-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100rem;
+    justify-content: space-between;
+   
+    
+  }
+  .orange-navbar{
+    position: relative;
+    width: 92rem;
+    height: 38px;
+    left: 0px;
+    top: 160px;
+    
+    background: #FE9832;   
+}
+
+
+.default-sorting select {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 246px;
+  height: 42px;
+  left: 1000px;
+  top: 235px;
+  
+  background: #F7F7F7;
+  border: 1px solid #C7C7C7;
+  border-radius: 7px;
+}
+
+.default-sorting option{
+
+position: absolute;
+width: 114px;
+height: 22px;
+left: 1064px;
+top: 276px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 140%;
+/* identical to box height, or 22px */
+
+color: #1D1E24;
+}
+
+.tyre-brands h2{
+  position: absolute;
+  width: 200px;
+  height: 22px;
+  left: 130px;
+  top: 344px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 140%;
+  /* or 22px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+ 
+}
+
+.tyre-brand-name p{
+   font-size: 20px;
+   margin-top: 8px;
+}
+
+
+.hr-line{
+  position: absolute;
+  width: 210px;
+  height: 0px;
+  left: 130px;
+  top: 730px;
+  
+  border: 1px solid #BBBBBB;
+}
+
+
+
+.price-filter {
+  margin: 50px 0;
+  font-family: Arial, sans-serif;
+background-color: red;
+}
+
+.price-filter h3{
+  position: absolute;
+  width: 220px;
+  height: 22px;
+  left: 130px;
+  top: 770px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  /* or 22px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+}
+
+.slider-container {
+  position: absolute;
+  width: 212px;
+  height: 17px;
+  left: 130px;
+  top: 810px;
+}
+
+.price-range-label {
+  position: absolute;
+  width: 220px;
+  height: 20px;
+  left: 130px;
+  top: 840px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-transform: uppercase;
+  
+  color: #1D1E24;
+}
+
+.show-container{
+  /* display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 30px;
+
+position: absolute;
+width: 950px;
+height: 1219.06px;
+left: 0px;
+top: 200px; */
+
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 27px;
+flex-grow: 1;
+
+width: 933px;
+margin-bottom: 40px;
+margin-left: 450px;
+margin-top: 250px;
+
+/* background-color: red; */
+}
+
+.tyre-card{
+  width: 330px;
+  height: 500px;
+  margin-left: 105px !important;
+ /* background-color: yellow; */
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+
+.tyre-image{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  left: 16px;
+  top: 15px;
+  
+  }
+  .img-container{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+ 
+  background: #F7F7F7;
+  border-radius: 20px;
+  }
+
+
+
+ }

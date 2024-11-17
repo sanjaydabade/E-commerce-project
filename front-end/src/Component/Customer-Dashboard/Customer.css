@@ -1,0 +1,445 @@
+/* Sidebar container */
+/* .customer-sidebar {
+  width: 260px;
+  background-color: #ffffff;
+  border-right: 1px solid #e6e6e6;
+  padding: 20px;
+  position: relative;
+  top: 130px; 
+  left: 0px;
+  height: auto; 
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.customer-sidebar {
+  width: 260px;
+  background-color: #ffffff;
+  border-right: 1px solid #e6e6e6;
+  padding: 20px;
+  position: sticky;
+  top: 0; /* Keeps the sidebar fixed when scrolling */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* Sidebar title */
+.sidebar h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* Menu list */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+/* Menu items */
+.sidebar-menu li {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect */
+.sidebar-menu a:hover {
+  background-color: #f1f5f9;
+  color: #1a73e8;
+}
+
+/* Icon styling */
+.icon {
+  margin-right: 12px;
+  font-size: 20px;
+  color: #777;
+  transition: color 0.3s;
+}
+
+/* Hover effect on icons */
+.sidebar-menu a:hover .icon {
+  color: #1a73e8;
+}
+
+
+
+/* -----My Account---------- */
+
+.my-account {
+  text-align: center;
+ margin-top: 150px;
+  background-color: red;
+  font-size: 20px;
+  width: 50%;
+  margin-left: 300px;
+}
+
+.my-account-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 130px; /* Aligns with the sidebar */
+}
+
+
+
+
+.my-account-container {
+  text-align: center;
+  margin-left: 20px; /* Adds space between the sidebar and account section */
+  background-color: #ffffff;
+  font-size: 16px;
+  width: 60%;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Title styling */
+.account-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-right: 600px;
+}
+
+/* Contact Information section */
+.contact-info {
+  margin-bottom: 20px;
+  margin-right: 650px;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #777;
+  margin: 5px 0;
+  margin-right: 120px;
+}
+
+.edit-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  /* background-color: #1a73e8; */
+  color:blue;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 130px;
+}
+
+
+
+/* Horizontal divider */
+.divider {
+  margin: 20px auto;
+  border: 0;
+  height: 1px;
+  background-color: #e6e6e6;
+  width: 100%;
+}
+
+/* Address Book section */
+.address-book h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  margin-right: 670px;
+  font-weight: bold;
+}
+.address-book p1{
+  margin-right: 320px;
+  color: blue;
+  top: 50px;
+}
+.address-book p {
+  font-size: 15px;
+  color: #777;
+  margin: 5px 0;
+  margin-right: 520px;
+  margin-top: 15px;
+}
+.address-book h6{
+  color: #333;
+  margin-right: 650px;
+  font-size: 17px;
+
+
+}
+.address-book button{
+  margin-right: 740px;
+}
+
+
+
+
+/* ----------My Account Information------- */
+
+.account-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-info-header h2,
+.account-info-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+ 
+}
+
+.account-info-header h3{
+  margin-right: 350px;
+}
+.account-info-card hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.account-info-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.account-info-card {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.account-info-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.account-info-left,
+.account-info-right {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.account-info-item {
+  margin-bottom: 15px;
+}
+
+.account-info-item label {
+  font-weight: bold;
+  color: black;
+  
+}
+
+.account-info-item p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+
+
+
+.account-info-options {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.account-info-checkbox {
+  margin: 10px 0;
+  color: black;
+  margin-left: 30px;
+  font-weight: bold;
+
+}
+
+
+.save-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+/* -----------My Orders -------------- */
+
+/* AddressBook Header Styling */
+.account-info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-info-header h2,
+.account-info-header h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.account-info-header h3 {
+  margin-right: 350px;
+}
+
+/* Divider for Card Sections */
+.account-info-card hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+/* Main Container Layout */
+.account-info-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.account-info-card {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Section Layout */
+.account-info-sections {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.account-info-left,
+.account-info-right {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.account-info-item {
+  margin-bottom: 15px;
+}
+
+/* Label and Input Styling */
+.account-info-item label {
+  font-weight: bold;
+  color: black;
+}
+
+.account-info-item p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+/* Checkbox and Options */
+.account-info-options {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.account-info-checkbox {
+  margin: 10px 0;
+  color: black;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+/* Save Button Styling */
+.save-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional AddressBook Container Layout */
+.address-book-container {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.address-book-left,
+.address-book-right {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-section input:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}

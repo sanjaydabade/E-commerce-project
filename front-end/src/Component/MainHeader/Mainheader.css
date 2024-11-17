@@ -1,0 +1,2115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+
+  }
+  
+
+  .main-homepage{
+    display: flex;
+    flex-direction: column;
+    min-height: 229rem;
+    justify-content: space-between;
+   
+  }
+/* section 1 css */
+
+.shop-tyre1{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: absolute;
+width: 1250px;
+height: 440px;
+left: 140px;
+top: 156px;
+/* justify-content: center; */
+background: #FE9832;
+border-radius: 30px;
+}
+
+.shop-img1 img{
+    position: absolute;
+    width: 510px;
+    height: 450px;
+    left: 633px;
+    top: 14px;
+
+}
+
+.shop-name1 {
+    position: absolute;
+    width: 480px;
+    height: 236px;
+    left: 148px;
+    top: 209px;  
+}
+
+.shop-tyre1 h1{
+    position: absolute;
+    width: 479px;
+    height: 140px;
+    left: 100px;
+    top: 50px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%;
+    /* or 70px */
+    
+    color: #1D1E24;   
+}
+.shop-tyre1 p{
+    position: relative;
+    width: 500px;
+    height: 45px;
+    left: 100px;
+    top: 217px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 140%;
+    /* or 36px */
+    
+    color: #1D1E24; 
+}
+
+.shop-button1 {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 15px;
+gap: 14px;
+
+position: absolute;
+width: 175px;
+height: 44px;
+left: 100px;
+top: 325px;
+
+background: #216069;
+border-radius: 10px;
+}
+
+.shop-button1 a {
+    width: 147px;
+    height: 24px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color:#fff !important;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;  
+}
+
+.shop-tyre1 i {  
+    color: #216069; 
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.shop1{  
+    position: absolute;
+    width: 618px;
+    height: 440px;
+    left: 632px;
+    top: 0px;
+    background: #216069;
+    border-radius: 0px 30px 30px 0px;
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+
+/* Section 3 */
+
+.tyre-choose1 {
+    position: absolute;
+    width: 972px;
+    height: 363px;
+    left: 270px;
+    top: 656px;
+}
+
+.tyre-choose1 h1{
+    position:absolute ;
+    width: 577px;
+    height: 56px;
+    left: calc(50% - 567px/2 + 0.5px);
+    /* top: 656px; */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+    text-align: center;
+    
+    color: #1D1E24;   
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 66px;
+    
+    position: absolute;
+    width: 972px;
+    height: 257px;
+    left: calc(50% - 972px/2);
+    top: 175px;   
+}
+
+.free-delivery1{
+     /* background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Delivery Truck.jpg'); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 280px;
+    height: 257px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+.free-delivery1 span {
+   background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Delivery Truck.jpg');
+   
+width: 91px;
+height: 91px;
+background-repeat: no-repeat;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.customer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 280px;
+    height: 257px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+}
+.customer1 span{
+    width: 91px;
+    height: 91px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Shape.jpg');
+    background-repeat: no-repeat;
+}
+
+.money-back1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 280px;
+    height: 257px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;   
+}
+.free-delivery1 h4{
+    width: 280px;
+    height: 28px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;  
+}
+
+.free-delivery1 p{
+    width: 280px;
+    height: 114px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    /* or 21px */
+    text-align: center;
+    
+    color: #1D1E24;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+}
+
+.customer1 h4{
+    width: 280px;
+    height: 28px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;   
+}
+.customer1 p {
+    width: 280px;
+    height: 114px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    /* or 21px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+}
+.money-back1 h4{
+    width: 280px;
+    height: 28px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;   
+}
+.money-back1 span {
+    background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Group 1.jpg');
+width: 91px;
+height: 91px;
+background-repeat: no-repeat;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.money-back1 p{
+    width: 280px;
+    height: 114px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    /* or 21px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+   
+}
+
+
+/* section 4 */
+
+.search_tyre {   
+position: absolute;
+width: 1250px;
+height: 480px;
+left: 140px;
+top: 1156px;
+background-size: cover;
+background-repeat: no-repeat;
+background-image:url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Rectangle 4.png'); 
+border-radius: 30px;
+
+
+
+}
+
+.search-bg-img{
+    width: 1250px;
+    height: 480px;
+    left: 1283px;
+    top: 1077px;
+    opacity: 1;
+    background: #216069;
+    mix-blend-mode: multiply;
+    border-radius: 30px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-repeat: no-repeat;
+}
+
+.search-name{
+    position: absolute;
+    width: 480px;
+    height: 236px;
+    left: 100px;
+    top: 116px;    
+}
+.search-name h1{
+    position: absolute;
+    width: 480px;
+    height: 140px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 140%; 
+    color:#FFFFFF;
+
+}
+.search-name p{
+    position: relative;
+    width: 489px;
+    height: 45px;
+    top: 160px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;  
+    color: #FFFFFF;
+
+}
+
+.search-name i{
+    font-size: 30px; 
+    font-weight: bolder;
+    color: #FE9832;
+}
+
+
+
+
+
+
+
+.search-icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 14px;
+    position: absolute;
+    width: 80px;
+    height: 298px;
+    left: 736px;
+    top: 70px;   
+   
+}
+
+
+
+
+/*  size */
+.search-size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    
+    width: 80px;
+    height: 68px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+      
+    border-bottom: 1px solid #FFFFFF;
+}
+.icons-img{
+    width: 36px;
+    height: 36px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Group.png'); */
+}
+.search-size p{
+    width: 80px;
+    height: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FE9832;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.search-car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px; 
+    width: 80px;
+    height: 56px;
+    
+    opacity: 0.7;
+    
+    /* Inside auto layout */
+    border-bottom: 1px solid #FFFFFF;
+}
+.car-img{
+
+ /* background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\car-side-svgrepo-com 1.png'); */
+
+ width: 36px;
+height: 36px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: -2px 0px;
+}
+
+.search-car p{
+    width: 80px;
+    height: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 180%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: -2px 0px;
+}
+
+.search-bike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+   
+    width: 80px;
+    height: 64px;
+    
+    opacity: 0.7;
+    
+    /* Inside auto layout */
+   border-bottom: 1px solid #FFFFFF; 
+}
+
+.bike-img{
+background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\motorcycle-cross-moto-bike-svgrepo-com 1.png');
+
+width: 32px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.search-bike p{
+    width: 80px;
+    height: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.search-truck {
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 80px;
+height: 68px;
+
+opacity: 0.7;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+border-bottom: 1px solid #FFFFFF;
+}
+
+.truck-img {
+background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\truck-svgrepo-com 1.png');
+
+width: 36px;
+height: 36px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.search-truck p{
+    width: 80px;
+    height: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.search-form1 {
+    position: absolute;
+    width: 384px;
+    height: 390px;
+    left: 817px;
+    top: 50px;
+    
+    background: #FFFFFF;
+    
+    border-radius: 20px;
+    
+}
+.search-form1 h3{
+    position: relative;
+    
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 450%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    
+    color: #1D1E24;
+}
+.form-img{
+    position: absolute;
+    width: 181px;
+    height: 68px;
+    left: 100px;
+    top: 58px;
+    background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\pngegg 1.png');
+   
+    border-bottom: 2px solid #FE9832;
+    background-repeat: no-repeat;
+}
+
+.width {
+    position: absolute;
+    width: 163px;
+    height: 65px;
+    left: 20px;
+    top: 145px;
+}
+.Height{
+    position: absolute;
+    width: 163px; 
+    height: 65px;
+    left: 200px;
+    top: 145px;
+}
+.custom{
+    position: absolute;
+    width: 163px;
+    height: 65px;
+    left: 20px;
+    top: 230px;
+}
+.whether{
+    position: absolute;
+    width: 163px;
+    height: 65px;
+    left: 200px;
+    top: 230px;
+}
+.width  label{
+    position: relative;
+    width: 55px;
+    height: 20px;
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-transform: uppercase;
+    
+    color: #1D1E24;
+}
+.width select{
+   
+position: relative;
+width: 163px;
+height: 42px;
+
+
+background: #F7F7F7;
+border: 1px solid #C7C7C7;
+border-radius: 7px;
+}
+
+.Height label{
+    position: relative;
+    width: 55px;
+    height: 20px;
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-transform: uppercase;
+    
+    color: #1D1E24;   
+}
+
+.Height select{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 163px;
+    height: 42px;
+  
+    
+    background: #F7F7F7;
+    border: 1px solid #C7C7C7;
+    border-radius: 7px;
+}
+.custom label {
+    position: relative;
+    width: 77px;
+    height: 20px;
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-transform: uppercase;
+    
+    color: #1D1E24;
+}
+.custom select{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 163px;
+    height: 42px;
+   
+    
+    background: #F7F7F7;
+    border: 1px solid #C7C7C7;
+    border-radius: 7px;
+}
+
+.whether label{
+    position: relative;
+    width: 85px;
+    height: 20px;
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    text-transform: uppercase;
+    
+    color: #1D1E24;
+}
+.whether select {
+    box-sizing: border-box;
+
+    position: relative;
+    width: 163px;
+    height: 42px;
+   
+    
+    background: #F7F7F7;
+    border: 1px solid #C7C7C7;
+    border-radius: 7px;
+}
+
+.form-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 14px;
+    
+    position: relative;
+    width: 115px;
+    height: 44px;
+    left: 130px;
+    top: 230px;
+    
+    background: #FE9832;
+    border-radius: 10px;
+}
+.form-button button{
+    width: 95px;
+    height: 24px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    /* letter-spacing: 0.05em; */
+    text-transform: uppercase;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+/* section 5 */
+
+
+.best-seller p{
+    position: absolute;
+    width: 313px;
+    height: 56px;
+    left: 610px;
+    top: 1692px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+    text-align: center; 
+    color: #1D1E24;
+   
+}
+
+
+
+/* cart  */
+
+.tyres-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    padding: 0px;
+    gap: 34px;
+    position: absolute;
+    width: 1250px;
+    height: 810.71px;
+    left: 140px;
+    top: 1800px;
+    /* overflow:auto; */
+    
+    
+}
+
+.tyre-card{
+    width: 213px;
+    height: 388.35px;
+    
+   
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.tyre-image{
+    position: relative;
+    width: 182px;
+    height: 170px;
+    left: 16px;
+    top: 15px;
+   
+    
+}
+.img-container{
+    position: relative;
+    width: 213px;
+    height: 211px;
+    left: 0px;
+    top: 0px;
+    
+    background: #F7F7F7;
+    border-radius: 20px;
+}
+
+
+
+.tyre-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%; /* Ensure it spans the full width of the card */
+  height: auto; /* Let the height adjust based on content */
+  position: relative; /* Removed absolute positioning */
+}
+
+.tyre-details h2{
+    width: 211.93px;
+    height: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.4835px;
+    line-height: 140%;
+    /* identical to box height, or 22px */
+    
+    color: #AFAFAF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.tyre-description {
+    width: 211.93px;
+    min-height: 52px;
+    height: auto;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    
+    color: #1D1E24;
+    
+    /* Ensure long text breaks into new lines */
+    word-wrap: break-word; /* Break long words and wrap them */
+    word-break: break-word; /* Force long words to break */
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+   
+}
+
+.price-section{
+    width: 140px;
+    height: 44px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.Sales-price{
+    position: absolute;
+    width: 90px;
+    height: 44px;
+    left: calc(50% - 78px/2 - 66.96px);
+    top: 74px;
+    
+    font-family: 'Rupee Foradian';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.1606px;
+    line-height: 140%;
+    /* or 35px */
+    
+    color: #FE9832;
+}
+.tyre-price{
+    position: absolute;
+    width: 80px;
+    height: 30.17px;
+    left: calc(50% - 54px/2 + 5.23px);
+    top: 83.73px;
+   
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.4189px;
+    line-height: 140%;
+    /* or 24px */
+    text-decoration-line: line-through;
+    
+    color: #616161;
+}
+.tyre-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.67716px 14.5157px;
+    gap: 13.55px;
+    
+    width: 211.93px;
+    height: 42.35px;
+    
+    background: #216069;
+    border-radius: 9.67716px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.tyre-button span {
+
+    width: 118.06px;
+    height: 23px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.4835px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+/* section 6 */
+
+.tyres-brand{
+
+    position: relative;
+    height: 476px;
+    left: 0px;
+    top: 2688px;
+    /* flex-grow: 1; */
+    
+ 
+   
+    flex-wrap: wrap;
+  
+    background: #f6f6f6;
+}
+.logo-container {
+    flex: none;
+    width: 180px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-container img {
+    width: 100%; /* Allow the width to scale based on the aspect ratio */
+    height: 100%; /* Set height to fill the container height */
+    max-width: auto; /* Ensure the image does not exceed the container width */
+    max-height: auto; /* Ensure the image does not exceed the container height */
+    object-fit: center; /* Maintain the aspect ratio of the image */
+    display: block; /* Remove bottom space */
+    margin: auto; /* Center image horizontally */
+    border-radius: 15px;
+}
+
+.tyres-brand h1{
+    position: relative;
+    width: 603px;
+    height: 56px;
+    left: calc(50% - 603px/2 + 0.5px);
+    top: 60px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+    text-align: center;
+    
+    color: #1D1E24;
+}
+
+
+.tyres-brand-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    /* background-color: red; */
+    position: absolute;
+    width: 1498px;
+    height: 122px;
+    left: calc(50% - 1498px/2);
+    top: 210px;
+    overflow:hidden
+}
+
+
+
+.img-container {
+    position: relative;
+  }
+  
+.tyre-status {
+  
+justify-content: center;
+align-items: center;
+padding: 3px 5px;
+gap: 10px;
+
+position: absolute;
+width: 45px;
+height: 18px;
+left: 165px;
+top: 8px;
+
+background: #216069;
+border-radius: 5px;
+width: 35px;
+height: 20px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+  }
+  
+  .tyre-status.sale {
+    left: 10px;
+    z-index: 1;
+   
+    background-color:#ff1313; /* New tag background */
+  }
+  
+  .tyre-status.new {
+    left:80%;
+   
+    background-color:#216069 ; 
+    z-index: 1;
+  }
+
+
+
+ 
+
+
+
+/* Responsive Styles for Tablet (768px to 1024px) */
+@media (max-width: 1024px) {
+   
+  
+.shop-tyre1{
+    position: absolute;
+    width: 1250px;
+    height: 440px;
+    left: 80px;
+    top: 156px;
+    /* justify-content: center; */
+    background: #FE9832;
+    border-radius: 30px;
+    }
+    
+
+    .search_tyre {   
+        position: absolute;
+        width: 1250px;
+        height: 480px;
+        left: 80px;
+        top: 1156px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Rectangle 4.png'); 
+        border-radius: 30px;
+        
+        }
+
+
+        .tyre-choose1 {
+            position: absolute;
+            width: 972px;
+            height: 363px;
+            left: 270px;
+            top: 656px;
+        }
+
+        .best-seller p{
+           
+            top: 1700px;
+        }
+        .tyres-container{
+          
+        left:100px;
+        }
+      
+   .tyres-brand{
+    position: absolute;
+    height: 476px;
+    top:2700px;
+    width: 1400px;
+   }
+
+   .tyres-brand h1{
+    position: absolute;
+    
+    height: 56px;
+    left:420px;
+    top: 60px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    
+    text-align: center;
+    
+    color: #1D1E24;
+    }
+    
+    
+    .tyres-brand-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 21px;
+        position: absolute;
+        width: 1400px;
+        height: 122px;
+        left: calc(50% - 1498px/2);
+        top: 210px;
+       overflow-x: scroll;
+       scrollbar-width: none;
+       -ms-overflow-style: none;
+        white-space: nowrap; /* Prevent wrapping of items */
+    }
+
+    .tyres-brand-img ::-webkit-scrollbar{
+    display: none;
+    }
+
+
+  }
+  
+  /* Responsive Styles for Mobile (up to 767px) */
+  @media (max-width: 767px) {
+   
+   .main-homepage{
+    display: flex;
+    flex-direction: column;
+    min-height: 491rem;
+    justify-content: space-between;
+  
+    width: 400%;
+   
+  }
+.shop-tyre1{
+    position: absolute;
+    width: 1000px;
+    height: 900px;
+    left: 200px;
+    top: 156px;
+    /* justify-content: center; */
+    background: #FE9832;
+    border-radius: 30px;
+    }
+    
+    .shop-img1 img{
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        left: 230px;
+        top: 345px;
+    
+    }
+    
+    .shop-name1 {
+        position: absolute;
+        width: 480px;
+        height: 236px;
+        left: 148px;
+        top: 209px;  
+    }
+    
+    .shop-tyre1 h1{
+        position: absolute;
+        width: 479px;
+        height: 140px;
+        left: 250px;
+        top: 40px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 140%;
+        /* or 70px */
+        
+        color: #1D1E24;   
+    }
+    .shop-tyre1 p{
+        position: relative;
+        width: 500px;
+        height: 45px;
+        left: 250px;
+        top: 205px;
+        
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 140%;
+        /* or 36px */
+        
+        color: #1D1E24; 
+    }
+    
+    .shop-button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 14px;
+    
+    position: absolute;
+    width: 175px;
+    height: 44px;
+    left: 380px;
+    top: 320px;
+    
+    background: #216069;
+    border-radius: 10px;
+    }
+    
+    .shop-button1 a {
+        width: 147px;
+        height: 24px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        
+        color:#fff !important;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;  
+    }
+    
+    .shop-tyre1 i {  
+        color: #216069; 
+        font-size: 30px; 
+        font-weight: bold;
+    }
+    
+    .shop1{  
+        position: absolute;
+        width: 1000px;
+        height: 440px;
+        left: 0px;
+        top: 460px;
+        background: #216069;
+        border-radius: 0px 0px 30px 30px;
+        clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+    }    
+
+
+
+
+    .search_tyre {   
+        position: absolute;
+        width: 1250px;
+        height: 480px;
+        left: 140px;
+        top: 3056px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Rectangle 4.png'); 
+        border-radius: 30px;
+          
+        
+        }
+
+        .tyre-choose1 {
+            position: absolute;
+            width: 972px;
+            height: 363px;
+            left: 210px;
+            top: 1156px;
+            /* background-color: red; */
+        }
+
+    
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 66px;
+    /* background-color: red; */
+    position: absolute;
+    width: 972px;
+    height: 257px;
+    left: calc(50% - 972px/2);
+    top: 150px;   
+
+}
+
+
+.free-delivery1{
+    /* background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Delivery Truck.jpg'); */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px;
+   gap: 12px;
+   
+   width: 400px;
+   height: 290px;
+   
+   /* Inside auto layout */
+   flex: none;
+   order: 0;
+   flex-grow: 0;   
+}
+.free-delivery1 span {
+  background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Delivery Truck.jpg');
+
+width: 101px;
+height: 91px;
+background-repeat: no-repeat;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.free-delivery1 h4{
+    width: 350px;
+    height: 28px;
+    margin-left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;  
+}
+
+.free-delivery1 p{
+    width: 280px;
+    height: 114px;
+    margin-left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 21px */
+    text-align: center;
+    margin-top: 10px;
+    color: #1D1E24;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+}
+
+
+.customer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    
+    width: 400px;
+    height: 290px;
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+.customer1 span{
+    width: 101px;
+    height: 91px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Shape.jpg');
+    background-repeat: no-repeat;
+}
+
+.customer1 h4{
+    width: 400px;
+    height: 28px;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    text-align: center;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;  
+    }
+ .customer1 p {
+    width: 280px;
+    height: 114px;
+    margin-left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 21px */
+    text-align: center;
+    margin-top: 10px;
+    color: #1D1E24;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+    }
+
+
+    .money-back1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 12px;
+        
+        width: 400px;
+        height: 257px;
+        
+        /* background-color: red; */
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;   
+   }
+
+    .money-back1 h4{
+    width: 400px;
+    height: 28px;
+    margin-left: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: center;  
+    color: #1D1E24;
+ 
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;     
+        }
+        .money-back1 span {
+        background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Group 1.jpg');
+        width: 91px;
+        height: 91px;
+        background-repeat: no-repeat;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        }
+ .money-back1 p{
+    width: 280px;
+    height: 114px;
+    margin-left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 21px */
+    text-align: center;
+    margin-top: 10px;
+    color: #1D1E24;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;   
+    }
+
+
+
+ .search_tyre {   
+        position: absolute;
+        width: 1000px;
+        height: 900px;
+        left: 200px;
+        top: 2400px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image:url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\Rectangle 4.png'); 
+        border-radius: 30px;
+        background-position:20%;
+
+  }
+        
+ .search-bg-img{
+        width: 1000px;
+        height: 900px;
+        left: 200px;
+        top: 1077px;
+        opacity: 1;
+        background: #216069;
+        mix-blend-mode: multiply;
+        border-radius: 30px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        background-repeat: no-repeat;
+        
+   }      
+
+   .search-name{
+    position: absolute;
+    width: 480px;
+    height: 236px;
+    left: 280px;
+    top: 116px;
+     
+    }
+    .search-icon-section {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 120px;
+        position: absolute;
+        width: 80px;
+        height: 298px;
+        left: 180px;
+        top: 400px;   
+        
+   }
+
+   .search-form1 {
+    position: absolute;
+    width: 684px;
+    height: 390px;
+    left: 150px;
+    top: 500px;
+    
+    background: #FFFFFF;
+    
+    border-radius: 20px;
+ }
+
+ .form-img{
+    position: absolute;
+    width: 191px;
+    height: 68px;
+    left: 250px;
+    top: 58px;
+    background: url('C:\sanjay\tyers project1\E-commerce Project\E-commerce Project\front-end\src\assets\icons\pngegg 1.png');
+    
+    border-bottom: 2px solid #FE9832;
+    background-repeat: no-repeat;
+    }
+    
+    .width {
+    position: absolute;
+    width: 163px;
+    height: 65px;
+    left: 150px;
+    top: 145px;
+    }
+    .Height{
+    position: absolute;
+    width: 163px; 
+    height: 65px;
+    left: 390px;
+    top: 145px;
+    }
+    .custom{
+    position: absolute;
+    width: 163px;
+    height: 65px;
+    left: 150px;
+    top: 230px;
+    }
+    .whether{
+    position: absolute;
+    width: 163px;
+    height: 65px;
+    left: 390px;
+    top: 230px;
+    }
+ 
+    
+    .form-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 14px;
+    
+    position: relative;
+    width: 115px;
+    height: 44px;
+    left: 300px;
+    top: 240px;
+    
+    background: #FE9832;
+    border-radius: 10px;
+    }
+    .form-button button{
+    width: 95px;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    /* letter-spacing: 0.05em; */
+    text-transform: uppercase;
+    
+    color: #1D1E24;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+
+    .search-size p{
+       
+        font-size: 18px;
+       
+        }
+  .search-car p{
+    font-size: 18px;
+}
+
+.search-bike p{
+    font-size: 18px;
+}
+.search-truck p{
+    font-size: 18px;
+    width: 100px;
+}
+
+.best-seller p{
+    position: absolute;
+    width: 313px;
+    height: 56px;
+    left: 550px;
+    top: 3392px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    /* identical to box height, or 56px */
+    text-align: center; 
+    color: #1D1E24;
+    
+    }
+    .tyres-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: flex-start;
+        padding: 0px;
+        gap: 34px;
+        position: absolute;
+        width: 1000px;
+        height: 900px;
+        left: 200px;
+        top: 3500px;
+        /* overflow:auto; */
+        
+        /* background-color: red; */
+        }
+
+ .tyre-card{
+    width: 400px;
+    height: 500px;
+    margin-left: 80px;
+   
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+ .tyre-image{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    left: 16px;
+    top: 15px;
+    
+    
+    }
+    .img-container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 0px;
+    top: 0px;
+   
+    background: #F7F7F7;
+    border-radius: 20px;
+    }
+
+
+    .tyre-details h2{
+        width: 280px;
+        height: 22px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 140%;
+        /* identical to box height, or 22px */
+        margin-top: 10px;
+        color: #AFAFAF;
+        
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        }
+
+    
+ .price-section{
+        width: 140px;
+        height: 44px;
+        
+        /* Inside auto layout */
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        }   
+.Sales-price{
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    left: 0px;
+    top: 97px;
+    
+    font-family: 'Rupee Foradian';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    /* or 35px */
+    
+    color: #FE9832;
+    }
+     .tyre-price{
+    position: absolute;
+    width: 80px;
+    height: 30.17px;
+    left: 110px;
+    margin-top: 20px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 24px */
+    text-decoration-line: line-through;
+    
+    color: #616161;
+    }
+
+
+    .tyre-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 9.67716px 14.5157px;
+        gap: 13.55px;
+        
+        width: 211.93px;
+        height: 42.35px;
+        
+        background: #216069;
+        border-radius: 9.67716px;
+        margin-top: 30px;
+        /* Inside auto layout */
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+        }
+
+
+.tyres-brand{
+
+    position: absolute;
+    height: 476px;
+    
+    top:6300px;
+    width: 1455px;
+ 
+    /* background: #F6F6F6; */
+    }
+    
+    .tyres-brand h1{
+    position: absolute;
+    
+    height: 56px;
+    left:420px;
+    top: 60px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 140%;
+    
+    text-align: center;
+    
+    color: #1D1E24;
+    }
+    
+    
+    .tyres-brand-img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 21px;
+        position: absolute;
+        width: 1498px;
+        height: 122px;
+        left: calc(50% - 1498px/2);
+        top: 210px;
+       overflow-x: scroll;
+       scrollbar-width: none;
+       -ms-overflow-style: none;
+        white-space: nowrap; /* Prevent wrapping of items */
+    }
+
+    .tyres-brand-img ::-webkit-scrollbar{
+    display: none;
+    }
+
+    .tyre-status.sale {
+        left: 10px;
+        z-index: 1;
+       
+        background-color:#ff1313; /* New tag background */
+      }
+      
+      .tyre-status.new {
+        left:80%;
+       
+        background-color:#216069 ; 
+        z-index: 1;
+      }
+
+
+
+
+  }
+
+

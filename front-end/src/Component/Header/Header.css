@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%; /* Ensures full width */
+  height: 41px;
+  background: #216069;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+/* Responsive for tablets (widths between 768px and 1024px) */
+@media (max-width: 1024px) {
+  .header {
+    height: 50px;
+    width: 88rem; /* Adjust height for tablets */
+    position: absolute;
+  }
+
+  .header p {
+    font-size: 14px; /* Slightly smaller font for tablets */
+  }
+}
+
+
+
+/* Responsive for mobile phones (widths less than 480px) */
+@media (max-width: 480px) {
+  .header {
+    height: 40px; /* Smaller height for small phones */
+    width: 92rem;
+  }
+
+  .header p {
+    font-size: 12px; /* Smaller font size for small phones */
+    padding: 0 10px; /* Adjust padding to fit content on small screens */
+  }
+}

@@ -1,0 +1,942 @@
+
+
+.cart-buynow-container{  
+  /* position:absolute; */
+  width: 777px;
+  height: 580px;
+  
+   display: flex;
+  flex-direction: column;
+  gap: 200px;
+  
+  
+  flex: 1;
+  margin-top: 230px;
+  margin-left: 100px;
+  
+    }
+.buynow-acc{
+    position: absolute;
+    width: 87px;
+    height: 28px;
+    left:83px;
+    top: 321px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    /* identical to box height, or 28px */
+    
+    color: #1D1E24;
+
+}
+.buy-now-form{
+
+    position: absolute;
+    width: 457px;
+    height: 117px;
+    left: 83px;
+    top: 369px;
+    /* background-color: red; */
+}
+.buy-now-form p{
+    position: relative;
+    width: 550px;
+    height: 22px;
+   
+    top: 0px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    color: #1D1E24;
+}
+.form-group-buynow label{
+    position:relative;
+    width: 71px;
+    height: 20px;
+   
+    top:15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    
+    color: #1D1E24;
+}
+
+
+.form-group-buynow{
+    position: relative;
+    width: 457px;
+    height: 73px;
+   
+   
+}
+
+
+.country-code{
+
+    position: absolute;
+    width: 23px;
+    height: 20px;
+    left: 25px;
+    top: 15px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    
+    color: #1D1E24;  
+}
+.separator{
+
+    position: absolute;
+    width: 37px;
+    height: 0px;
+    left: 50px;
+    top: 23px;
+    
+    border: 1px solid #BBBBBB;
+    transform: rotate(90deg);  
+}
+
+.continue-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.67716px 14.5157px;
+    gap: 13.55px;
+    
+    position: absolute;
+    width: 149px;
+    height: 50px;
+    left: 280px;
+    top: 62px;
+    
+    background: #216069;
+    border-radius: 10px;
+}
+
+
+
+
+
+.ui-wrapper {
+    --width: 250px;
+    --height: 50px;
+    --background: #fff;
+    --text-color: rgb(73, 73, 73);
+    --border-color: rgb(185, 184, 184);
+    --border-focus-color: rgb(0, 110, 255);
+    --shadow-color: rgba(34, 60, 80, 0.2);
+    --shadow-focus-color: rgba(0, 110, 255, 0.2);
+    --dropdown-button-color: #e6e6e6;
+    --dropdown-button-hover-color: #dad9d9;
+  }
+  
+  .ui-wrapper *,
+  .ui-wrapper *::before,
+  .ui-wrapper *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--text-color);
+  }
+  
+  .ui-wrapper {
+    width: var(--width);
+    height: var(--height);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid var(--border-color);
+    background-color: var(--background);
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-right: 10px;
+    -webkit-box-shadow: 0px 2px 5px 0px var(--shadow-color);
+    box-shadow: 0px 2px 5px 0px var(--shadow-color);
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    top:10px;
+  }
+  
+  
+  
+  .input-wrapper {
+    width: 100%;
+    padding-left: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    row-gap: 2px;
+  }
+  
+  .ui-wrapper:focus-within {
+    border-color: var(--border-focus-color);
+    -webkit-box-shadow: 0px 2px 5px 0px var(--shadow-focus-color);
+    box-shadow: 0px 2px 5px 0px var(--shadow-focus-color);
+  }
+  
+  .input-wrapper .textfield {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .input-wrapper .textfield::before {
+    content: "+91";
+    margin-right: 5px;
+    white-space: nowrap;
+  }
+  
+  .input-wrapper .textfield input {
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: none;
+  }
+  
+  
+  
+  /* actions */
+  
+  #phonenumber:invalid+.invalid-msg {
+    top: 110%;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+ .continue-button span{
+  width: 85px;
+  height: 23px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.4835px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ }
+
+
+ .placeholder-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9.67716px 14.5157px;
+  gap: 13.55px;
+  top: 204px;
+  width: 320px;
+  height: 50px;
+  position: relative;
+  background: #216069;
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;  
+ }
+ .placeholder-button span{
+  width: 219px;
+  height: 23px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.4835px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+ }
+
+
+
+
+
+
+
+
+
+
+ .buynow-right-section{
+  position: absolute;
+  width: 374px;
+  height: 536px;
+  left: 1020px;
+  top: 315px;
+  
+  background: #F3F3F3;
+}
+.buynow-checkout-total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 23px;
+ /* background-color: red; */
+  position: absolute;
+  width: 320px;
+  height: 457px;
+  left: 27px;
+  top: 38px;
+}
+.buynow-coupon-input{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 320px;
+  height: 46px;
+  left: 0px;
+  top: 0px;
+  
+  background: #FFFFFF;
+  border: 1px solid #E1E1E1;
+  border-radius: 10px;
+}
+.buynow-apply-coupon-button{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 96px;
+  height: 46px;
+  left: 224px;
+  top: 0px;
+  
+  background: #216069;
+  border: 1px solid #E1E1E1;
+  border-radius: 0px 10px 10px 0px;
+}
+.buynow-apply-coupon-button span{
+  position: absolute;
+  width: 50px;
+  height: 23px;
+  left: 20px;
+  top: 10px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.4835px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;   
+}
+
+.buynow-checkout-total p{
+  position: absolute; /* Positioning it absolutely */
+  top: 70px; /* Move it to the top */
+  left: 0; /* Optional: Adjust horizontal position */
+  
+  width: 208px;
+  height: 22px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%; /* or 22px */
+  color: #1D1E24;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  
+}
+
+.buynow-checkout-item{
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  
+  width: 242px;
+  height: 103px;
+   
+  background: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buynow-cart-checkout{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+  
+  width: 320px;
+  height: 103px;
+  
+  position: absolute;
+  top:120px;
+  overflow-x:auto;
+ 
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;   
+}
+
+.buynow-cart-checkout::-webkit-scrollbar {
+  display:none
+ }
+.buynow-checkout-info{
+  width: 168px;
+  height: 75px;
+ 
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.buynow-checkout-info h5{
+  position: relative;
+  width: 120px;
+  height: 15px;
+  left: 10px;
+  top: 0px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 140%;
+  /* or 15px */
+  
+  color: #1D1E24;
+}
+.buynow-checkout-info span{
+  position: relative;
+  width: 168px;
+  height: 30px;
+  left: 10px;
+  top: 32px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 140%;
+  /* or 15px */
+  
+  color: #5F5656;
+}
+.buynow-checkout-info p2{
+
+
+position: relative;
+width: 45px;
+height: 22px;
+left:0px ;
+top: 37px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #FE9832;  
+}
+
+.buynow-checkout-info p1{
+  position: relative;
+  width: 40px;
+  height: 18px;
+  left: 10px;
+  top: 37px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140%;
+  /* or 18px */
+  text-decoration-line: line-through;
+  
+  color: #616161;
+}
+
+.buynow-checkout-img{
+  width: 54px;
+  height: 83px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.buynow-checkout-img-box{
+
+  position: relative;
+  width: 54px;
+  height: 53px;
+  
+  background: #D9D9D9;
+  border-radius: 7px;
+}
+.buynow-checkout-avatarImages{
+
+  position: relative;
+  width: 25px;
+  height: 35px;
+  left: 10px;
+  top: 6px;
+}
+.buynow-checkout-add{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7.25787px 10.8868px;
+  gap: 10.16px;
+  
+  position: relative;
+  width: 54px;
+  height: 24px;
+  left: 0px;
+  top: 5px;
+  
+  background: #216069;
+  border-radius: 7.5px;
+}
+.buynow-checkout-add span{
+  width: 23px;
+  height: 15px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buynow-payment-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  
+  width: 320px;
+  height: 144px;
+  position: absolute;
+  top:250px;
+ 
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.buynow-payment-info-subtotal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 183px;
+  
+  width: 320px;
+  height: 21px;
+  position: relative;
+  /* background-color: #000000; */
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.buynow-payment-info-subtotal p{
+  width: 70px;
+  height: 21px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: uppercase;
+  top:0px;
+  color: #505158;
+  position: absolute;
+  /* background-color: #216069; */
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.buynow-payment-info-subtotal span{
+  width: 43px;
+  height: 20px;
+  
+  font-family: 'Rupee Foradian';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  color: #505158;
+  left:270px;
+  position: relative;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buynow-shipping-charges{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 122px;
+  
+  width: 320px;
+  height: 21px;
+ 
+ position: relative;
+ 
+  /* background-color: #000000; */
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.buynow-shipping-charges p{
+
+  width: 160px;
+  height: 21px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #505158;
+ position: absolute;
+  top:0px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.buynow-shipping-charges span{
+  width: 34px;
+  height: 20px;
+  
+  font-family: 'Rupee Foradian';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: right;
+  
+  color: #505158;
+  position: absolute;
+  left:270px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buynow-coupon-discount{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 122px;
+  
+  width: 320px;
+  height: 21px;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.buynow-coupon-discount p{
+  width: 167px;
+  height: 21px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: uppercase;
+  
+  color: #505158;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buynow-coupon-discount span{
+  width: 16px;
+  height: 20px;
+  
+  font-family: 'Rupee Foradian';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: right;
+  
+  color: #505158;
+  left: 270px;
+  position: absolute;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.buynow-payment-hr{
+
+  width: 320px;
+  height: 0px;
+  position: absolute;
+  border: 1px solid #878787;
+  top:100px;
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.buynow-payment-total-amount{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 111px;
+  top: 10px;
+  width: 320px;
+  height: 21px;
+  /* background-color: #216069; */
+  position: relative;
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.buynow-payment-total-amount p{
+
+  width: 154px;
+  height: 21px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-transform: uppercase;
+  position: absolute;
+  color: #1D1E24;
+  top: 0px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buynow-payment-total-amount span{
+  width: 44px;
+  height: 20px;
+  
+  font-family: 'Rupee Foradian';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: right;
+  
+  color: #1D1E24;
+  position: relative;
+  left:270px;
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.buynow-proceed-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9.67716px 14.5157px;
+  gap: 13.55px;
+  top: 204px;
+  width: 320px;
+  height: 50px;
+  position: relative;
+  background: #216069;
+  border-radius: 10px;
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;  
+}
+.buynow-proceed-button span{
+
+  width: 219px;
+  height: 23px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.4835px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.buynow-cart-hr-line1{
+  position: absolute;
+  width: 791px;
+  height: 0px;
+  left: 83px;
+  top: 544px;
+  
+  border: 1px solid #D0D0D0;
+}
+
+
+
+/* Responsive Styles for Tablet (768px to 1024px) */
+@media (max-width: 1024px) {
+
+ .buynow-right-section{
+  left: 900px;
+ }
+}
+
+
+
+/* Responsive Styles for Mobile (up to 767px) */
+@media (max-width: 767px) {
+
+
+
+}
